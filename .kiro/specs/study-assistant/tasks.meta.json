@@ -1,0 +1,285 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Bootstrap project structure and global styles": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784309823268
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310453737
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310637681
+      }
+    ],
+    "2.1 Create `pages/api/generate.js` with the LLM proxy": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784309823554
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784309835092
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310372104
+      }
+    ],
+    "2.2 Implement `validateStudyContent` in the API route": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784309823695
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310400552
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310435397
+      }
+    ],
+    "3.1 Create `components/InputPanel.js`": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784309823838
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784309839431
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310377023
+      }
+    ],
+    "4. Implement `ModeSelector` component": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784309823979
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784309843691
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310381637
+      }
+    ],
+    "5.1 Create `components/FlashcardMode.js` with deck and navigation state": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784309824097
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784309848006
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310387878
+      }
+    ],
+    "6.1 Create `components/QuizMode.js` with question and scoring state": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784309824224
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784309852226
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310391880
+      }
+    ],
+    "7.1 Implement root page state and `handleSubmit`": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784309824358
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310658638
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310802932
+      }
+    ],
+    "7.2 Render Empty, Loading, Error, and Content states": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784309824478
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310808063
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310812591
+      }
+    ],
+    "8. Checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784309824589
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310826453
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310905181
+      }
+    ],
+    "9.1 Add responsive CSS rules in `styles/globals.css`": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784309824708
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310909710
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784311044037
+      }
+    ],
+    "9.2 Audit and enforce touch target sizes and accessibility attributes": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784309824824
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310915281
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784311050636
+      }
+    ],
+    "10. Create README.md": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784309824940
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310919622
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784311056103
+      }
+    ],
+    "11. Final checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784309825057
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784311060613
+      },
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784311153792
+      }
+    ],
+    "3. Implement `InputPanel` component": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310377186
+      }
+    ],
+    "5. Implement `FlashcardMode` component": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310388044
+      }
+    ],
+    "6. Implement `QuizMode` component": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310391999
+      }
+    ],
+    "2. Implement the API route": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310435500
+      }
+    ],
+    "7. Wire everything together in `pages/index.js`": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784310812698
+      }
+    ],
+    "9. Apply responsive layout and accessibility polish": [
+      {
+        "executionId": "4c575dcd-3abd-46ad-8fee-df1ca1db8905",
+        "chatSessionId": "sess_dd82e698-2aea-4c32-921c-191dbdbdca19",
+        "timestamp": 1784311050825
+      }
+    ]
+  }
+}
