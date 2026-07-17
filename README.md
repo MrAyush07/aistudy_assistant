@@ -27,7 +27,7 @@ A Next.js web app that turns your notes or any topic into flashcards and multipl
    ```bash
    npm run dev
    ```
-   Open [http://localhost:3000](http://localhost:3000) in your browser.
+   Open https://aistudy-assistant.vercel.app/ in your browser.
 
 ## How to Use
 
