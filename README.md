@@ -1,48 +1,50 @@
 # 🎓 AI Study Assistant
 
-An AI-powered Study Assistant that transforms any study topic into an interactive learning experience. Users can enter any subject or paste notes, and the application generates structured study material such as summaries, flashcards, and quizzes.
+An AI-powered study assistant built with **Next.js** and **React** that transforms any study topic into interactive learning material. Simply enter a topic or paste your notes, and the application generates organized summaries, flashcards, and quizzes to make learning more engaging and effective.
 
-🔗 **Live Demo:** https://aistudy-assistant.vercel.app/
-
----
-
-## 📖 Overview
-
-AI Study Assistant is a modern web application designed to make studying more efficient and engaging. Instead of simply displaying AI-generated text, it converts the response into interactive learning tools that help users understand, revise, and test their knowledge.
-
-The project demonstrates how to build a reliable frontend around unpredictable AI outputs by validating responses, handling loading and error states, and presenting information in an intuitive UI.
+🌐 **Live Demo:** https://aistudy-assistant.vercel.app/
 
 ---
 
-## ✨ Features
+# 📖 Overview
+
+AI Study Assistant is designed to improve the learning experience by converting AI-generated content into structured educational tools rather than displaying plain text.
+
+The application focuses on creating a smooth user experience with proper loading states, error handling, and interactive components, making AI-generated responses easier to understand and use for revision.
+
+---
+
+# ✨ Features
 
 - 🤖 AI-powered study content generation
-- 📝 Generate structured study notes
-- 🎯 Interactive quizzes
-- 🃏 Flashcard generation
-- 📚 Topic summaries
-- ⚡ Fast and responsive interface
+- 📚 Automatic topic summarization
+- 🃏 Interactive flashcards
+- 📝 Quiz generation
+- ⚡ Instant response generation
+- 🎨 Modern and responsive UI
 - 📱 Mobile-friendly design
-- 🔄 Real-time AI responses
-- 🚨 Error handling for invalid responses
-- 🎨 Clean and modern UI
+- 🔄 Real-time content rendering
+- 🚨 Error handling and fallback UI
+- 💻 Clean component-based architecture
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
 ### Frontend
+
 - Next.js
 - React.js
-- JavaScript
+- JavaScript (ES6+)
 - CSS
 
 ### Deployment
+
 - Vercel
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
 AI-Study-Assistant/
@@ -55,9 +57,10 @@ AI-Study-Assistant/
 │   └── ...
 │
 ├── pages/
-│   ├── index.js
+│   ├── api/
 │   ├── _app.js
-│   └── api/
+│   ├── _document.js
+│   └── index.js
 │
 ├── styles/
 │   ├── globals.css
@@ -73,27 +76,27 @@ AI-Study-Assistant/
 
 ---
 
-## 🚀 Installation
+# 🚀 Getting Started
 
-Clone the repository
-
-```bash
-git clone https://github.com/riyasahu7/ai-study-assistant.git
-```
-
-Navigate to the project directory
+## Clone the Repository
 
 ```bash
-cd ai-study-assistant
+git clone https://github.com/MrAyush07/AI-Study-Assistant.git
 ```
 
-Install dependencies
+Move into the project directory.
+
+```bash
+cd AI-Study-Assistant
+```
+
+Install dependencies.
 
 ```bash
 npm install
 ```
 
-Run the development server
+Run the development server.
 
 ```bash
 npm run dev
@@ -107,102 +110,125 @@ http://localhost:3000
 
 ---
 
-## 📸 Application Workflow
+# 📸 How It Works
 
-1. Enter a study topic or paste your notes.
-2. Submit the prompt.
-3. The application processes the request.
-4. AI-generated content is organized into:
+1. Enter any study topic or paste your notes.
+2. Submit your request.
+3. AI processes the input.
+4. The response is transformed into structured learning content.
+5. Review:
    - Summary
    - Flashcards
    - Quiz
-5. Review and practice interactively.
+6. Revise and practice interactively.
 
 ---
 
-## ⚙️ Response Handling
+# ⚙️ Response Handling
 
-The application includes:
+Since AI responses can vary, the application includes:
 
-- Loading indicators
-- Error handling
+- Loading animations
 - Response validation
-- Graceful fallback UI
+- Graceful error handling
 - Retry support
-- Safe rendering of generated content
+- Safe rendering
+- Interactive UI updates
 
 ---
 
-## 💡 Use Cases
+# 💡 Use Cases
 
-- Exam Preparation
-- Quick Revision
-- Interview Preparation
-- Self Learning
-- Assignment Assistance
-- Daily Practice
+- 📚 Exam Preparation
+- 🎯 Competitive Exam Revision
+- 💼 Interview Preparation
+- 📝 Assignment Assistance
+- 📖 Self Learning
+- 🧠 Daily Practice
 
 ---
 
-## 📈 Future Enhancements
+# 📈 Future Improvements
 
 - User Authentication
-- Save Study History
-- PDF Upload
+- Study Progress Tracking
+- PDF Upload Support
 - Voice Input
 - Dark Mode
-- Difficulty Levels
-- Progress Tracking
 - Export Flashcards
+- Personalized Study Plans
 - AI Chat Tutor
 - Multi-language Support
+- Save Study History
 
 ---
 
-## 📷 Screenshots
+# 📦 Available Scripts
 
-Add screenshots here after deployment.
-
-```
-screenshots/
-    home.png
-    flashcards.png
-    quiz.png
-```
-
----
-
-## 📦 Production Build
-
-```bash
-npm run build
-```
-
-Start the production server
-
-```bash
-npm start
-```
-
----
-
-## 🧪 Available Scripts
+### Start Development Server
 
 ```bash
 npm run dev
+```
+
+### Build Project
+
+```bash
 npm run build
+```
+
+### Start Production Server
+
+```bash
 npm start
+```
+
+### Run Linter
+
+```bash
 npm run lint
 ```
 
 ---
 
-## 🤝 Contributing
+# 📷 Screenshots
+
+Add screenshots inside a folder named **screenshots**.
+
+```
+screenshots/
+│
+├── home.png
+├── summary.png
+├── flashcards.png
+└── quiz.png
+```
+
+Example:
+
+```markdown
+## Home Page
+
+![Home](screenshots/home.png)
+
+## Flashcards
+
+![Flashcards](screenshots/flashcards.png)
+
+## Quiz
+
+![Quiz](screenshots/quiz.png)
+```
+
+---
+
+# 🤝 Contributing
 
 Contributions are welcome.
 
 1. Fork the repository.
-2. Create a new branch.
+
+2. Create a feature branch.
 
 ```bash
 git checkout -b feature-name
@@ -214,7 +240,7 @@ git checkout -b feature-name
 git commit -m "Add new feature"
 ```
 
-4. Push to your branch.
+4. Push your branch.
 
 ```bash
 git push origin feature-name
@@ -224,20 +250,35 @@ git push origin feature-name
 
 ---
 
-## 📄 License
+# 👨‍💻 About the Developer
 
-This project is licensed under the MIT License.
+## Ayush Yadav
+
+Computer Science Engineering student passionate about **Artificial Intelligence**, **Full Stack Development**, and building scalable web applications.
+
+I enjoy developing real-world projects that combine modern frontend technologies with AI to solve practical problems and enhance user experiences.
+
+### Connect with Me
+
+- **GitHub:** https://github.com/MrAyush07
+- **Live Demo:** https://aistudy-assistant.vercel.app/
 
 ---
 
-## 👨‍💻 Author
+# ⭐ Support
 
-**Riya Sahu**
-
-GitHub: https://github.com/riyasahu7
+If you found this project helpful, consider giving it a ⭐ on GitHub. Your support motivates me to continue building and improving open-source projects.
 
 ---
 
-## ⭐ Support
+# 📄 License
 
-If you found this project helpful, consider giving it a ⭐ on GitHub.
+This project is licensed under the **MIT License**.
+
+Feel free to use, modify, and distribute this project for educational and personal purposes.
+
+---
+
+## 🙏 Acknowledgements
+
+Special thanks to the open-source community and the creators of **React**, **Next.js**, and **Vercel** for providing the tools that made this project possible.
